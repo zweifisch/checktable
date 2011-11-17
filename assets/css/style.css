@@ -1,0 +1,30 @@
+.pagination{
+	margin:4px;
+}
+
+.pagination .goto, .pagination .pre, .pagination .next{
+	border:1px solid #666;
+	padding:4px;
+	margin:1px;
+}
+
+.pagination .current{
+	padding:4px;
+	margin:1px;
+}
+
+table{
+	width:800px;
+}
+
+td{
+	border-bottom:1px solid #666;
+	padding:4px;
+	text-align:center;
+}
+
+th{
+	border-bottom:1px solid #666;
+	padding:4px;
+	background:#e5e5e5;
+}
