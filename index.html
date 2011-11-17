@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>checktable</title>
+		<link href="assets/css/bootstrap.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="container">
+			<h1>checktable demo</h1>
+			<table id="table" style="" cellspacing="0">
+				<thead>
+					<tr>
+						<th><input class="checkbox" value="" name="" type="checkbox"></th>
+						<th data-name="price">Price</th>
+						<th data-name="item">Item</th>
+						<th>Count</th>
+						<th>Operation</th>
+					</tr>
+				</thead>
+				<tbody><tr style="display: none;" data-id="0">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>344</td>
+						<td>emerge</td>
+						<td>5</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="1">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>309</td>
+						<td>apple</td>
+						<td>8</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="2">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>228</td>
+						<td>emerge</td>
+						<td>6</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="3">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>347</td>
+						<td>apple</td>
+						<td>16</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="4">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>278</td>
+						<td>cube</td>
+						<td>15</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr class="even" style="display: table-row;" data-id="5">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>177</td>
+						<td>apple</td>
+						<td>13</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr class="odd" style="display: table-row;" data-id="6">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>682</td>
+						<td>boom</td>
+						<td>2</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr class="even" style="display: table-row;" data-id="7">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>507</td>
+						<td>diff</td>
+						<td>10</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr class="odd" style="display: table-row;" data-id="8">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>655</td>
+						<td>boom</td>
+						<td>5</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr class="even" style="display: table-row;" data-id="9">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>120</td>
+						<td>apple</td>
+						<td>4</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="10">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>691</td>
+						<td>cube</td>
+						<td>2</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="11">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>902</td>
+						<td>emerge</td>
+						<td>2</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="12">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>281</td>
+						<td>apple</td>
+						<td>18</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="13">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>592</td>
+						<td>boom</td>
+						<td>2</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="14">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>418</td>
+						<td>diff</td>
+						<td>12</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="15">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>182</td>
+						<td>emerge</td>
+						<td>14</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="16">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>848</td>
+						<td>cube</td>
+						<td>18</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="17">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>931</td>
+						<td>apple</td>
+						<td>13</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="18">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>457</td>
+						<td>diff</td>
+						<td>18</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="19">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>701</td>
+						<td>diff</td>
+						<td>2</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="20">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>881</td>
+						<td>cube</td>
+						<td>11</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="21">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>950</td>
+						<td>boom</td>
+						<td>7</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="22">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>43</td>
+						<td>diff</td>
+						<td>8</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="23">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>964</td>
+						<td>boom</td>
+						<td>15</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="24">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>33</td>
+						<td>diff</td>
+						<td>9</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="25">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>653</td>
+						<td>emerge</td>
+						<td>6</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="26">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>357</td>
+						<td>diff</td>
+						<td>15</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="27">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>282</td>
+						<td>diff</td>
+						<td>16</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="28">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>926</td>
+						<td>apple</td>
+						<td>10</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="29">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>832</td>
+						<td>emerge</td>
+						<td>6</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="30">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>891</td>
+						<td>diff</td>
+						<td>15</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="31">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>448</td>
+						<td>diff</td>
+						<td>4</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="32">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>810</td>
+						<td>diff</td>
+						<td>17</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="33">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>207</td>
+						<td>diff</td>
+						<td>3</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="34">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>983</td>
+						<td>diff</td>
+						<td>16</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="35">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>419</td>
+						<td>boom</td>
+						<td>13</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="36">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>689</td>
+						<td>diff</td>
+						<td>8</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="37">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>476</td>
+						<td>emerge</td>
+						<td>1</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="38">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>286</td>
+						<td>emerge</td>
+						<td>3</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+					<tr style="display: none;" data-id="39">
+						<td><input class="checkbox" value="" name="" type="checkbox"></td>
+						<td>775</td>
+						<td>diff</td>
+						<td>18</td>
+						<td>
+							<a href="javascript:;" class="remove">remove</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<div id="pagination" class="pull-right"></div>
+		</div>
+
+		<div class="container">
+			<div id="operations">
+				<h4>Grep</h4>
+				<div>
+					<span id="field_selector"></span>
+					<input type="text" class="text" value="" name="grep" />
+					<a href="javascript:;" class="btn grep">grep</a>
+				</div>
+
+				<h4>Filter</h4>
+				<div>
+					<span id="field_selector2"></span>
+					<input type="text" class="text" value="" name="filter" />
+					<a href="" class="btn filter">filter</a>
+				</div>
+
+				<h4>Grep using select</h4>
+				<div>
+					<span id="field_selector3"></span>
+					<span id="val_selector"></span>
+				</div>
+
+				<h4>Delete Selected</h4>
+				<div>
+					<a href="javascript:;" class="btn delete_all danger">Delete checked on current page</a>
+				</div>
+
+			</div>
+
+		</div>
+		<script type="text/javascript" src="assets/js/jquery-1.7.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.dtable.js"></script>
+		<script type="text/javascript" src="assets/js/index.js"></script>
+	</body>
+</html>
